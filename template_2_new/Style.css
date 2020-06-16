@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 20px;
+}
+html{
+    background: url('img/Background.svg') no-repeat;
+    background-size: cover;
+}
+nav{
+    width:100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-header{
+    padding: 10px 20px;
+}
+
+nav .nav-header a{
+    
+    font-family: 'Monotype Corsiva';
+    font-size: 32px;
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+nav ul{
+    list-style:  none;
+    display: flex;
+    justify-content: space-evenly;  
+    padding: 10px 20px;
+}
+nav ul li{
+    padding: 0px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: medium;
+    color: #fff;
+}
+
+#Section1{
+    max-height: 20rem;
+    padding: 0px 20px;
+}
+
+#Section1 .container{
+    padding: 5% 5%;
+}
+
+#Section1 .container .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Section1 .container .row .col-md{
+    padding: 10px 15px;
+}
+
+#Section1 .container .row .col-md .image{
+    height: 400px;
+    width: 500px;
+    margin: 0px;
+}
+
+#Section1 .container .row .right{
+    padding: 10px 20px;
+}
+
+#Section1 .container .row .col-md .card{
+    padding: 30px 50px;
+}
+
+#Section1 .container .row .col-md .card .card-body{
+    padding: 40px;
+    background: rgba(59, 57, 57, 0.4);
+    color: #fff;
+    text-align: center;
+}
+
+#Section1 .container .row .col-md .card .card-body h2{
+    font-family: Roboto;
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+
+#Section1 .container .row .col-md .card .card-body p{
+    font-family: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#Section1 .container .row .col-md .card .card-body a{
+    color:#fff;
+    text-decoration: none;
+    background: #0196AA;
+    padding: 10px 20px;
+}
